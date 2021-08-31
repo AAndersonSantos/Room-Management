@@ -23,7 +23,7 @@ import APIGerenciadorDeSalas.model.Room;
 import APIGerenciadorDeSalas.repository.RoomRepository;
 
 @RestController @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class RoomController {
 	 @Autowired
 	  private RoomRepository roomRepository;
