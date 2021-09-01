@@ -22,7 +22,7 @@ import APIGerenciadorDeSalas.exception.ResourceNotFoundException;
 import APIGerenciadorDeSalas.model.Room;
 import APIGerenciadorDeSalas.repository.RoomRepository;
 
-@RestController @CrossOrigin(origins = "http://localhost:4200")
+@RestController @CrossOrigin(origins = "*")
 @RequestMapping("/api")
 public class RoomController {
 	 @Autowired
